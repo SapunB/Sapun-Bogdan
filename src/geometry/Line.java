@@ -5,6 +5,10 @@ public class Line {
     Point endPoint = new Point();
     boolean selected; //komentarneki
 
+    public double length(){
+        return startPoint.distance(endPoint.getX(), endPoint.getY());
+    }
+
     public Line(){
 
     }

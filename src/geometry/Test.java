@@ -11,5 +11,8 @@ public class Test {
         Point ep = line.getEndPoint();
 
         System.out.println(sp.distance(ep.getX(), ep.getY()));
+
+
     }
+
 }
