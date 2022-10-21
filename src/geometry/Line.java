@@ -3,7 +3,7 @@ package geometry;
 public class Line {
     Point startPoint = new Point();
     Point endPoint = new Point();
-    boolean selected;
+    boolean selected; //komentarneki
 
     public Line(){
 
