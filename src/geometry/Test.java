@@ -12,7 +12,20 @@ public class Test {
 
         System.out.println(sp.distance(ep.getX(), ep.getY()));
 
+        Circle circle = new Circle();
+        circle.getCenter().setX(5);
+        circle.getCenter().setY(2);
+        circle.setR(3);
+        double a = circle.CircleArea();
+        double b = circle.CircleCircumference();
 
+        Rectangle rectangle = new Rectangle();
+        rectangle.setA(2);
+        rectangle.setB(3);
+        rectangle.getUpperleft().setX(5);
+        rectangle.getUpperleft().setY(3);
+        double a1 = Rectangle.RectangleArea();
+        double b1 = Rectangle.RectangleCircumference();
     }
 
 }

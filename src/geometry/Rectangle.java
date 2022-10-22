@@ -6,11 +6,11 @@ public class Rectangle {
     private int b;
 
     public double RectangleArea() {
-        return a * b;
+        return this.a * this.b;
     }
 
     public double RectangleCircumference() {
-        return 2 * (a + b);
+        return 2 * (this.a + this.b);
     }
 
     public Point getUpperleft() {
